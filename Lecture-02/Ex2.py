@@ -7,4 +7,4 @@ height = float(input("Please enter your height in meters: "))
 height = float(height)  # Ensure height is a float
 
 bmi = weight / (height ** 2)  # Calculate BMI
-print("Your BMI is:", (bmi, ".2f"))
+print("Your BMI is:", format(bmi, ".2f"))
