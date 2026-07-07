@@ -6,4 +6,4 @@ age = int(age)  # Ensure age is an integer
 height = float(input("Please enter your height: "))
 height = float(height)  # Ensure height is a float
 
-print("You are" + str(age) + " years old and " + str(height) + " feet tall.")
+print("You are" + str(age) + " years old and " + str(height) + " meters tall.")
