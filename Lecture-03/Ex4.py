@@ -1,9 +1,10 @@
-Add = 1
-Subtract = 2
-Mutiply = 3
-Divide = 4
+print("Please select operation")
+print("Add = 1")
+print("Subtract = 2")
+print("Mutiply = 3")
+print("Divide = 4")
 
-choice = float(input("Enter the number of Operation Add = 1 Subtract = 2,Mutiply = 3,Divide = 4 : "))
+choice = float(input("Enter the number of Operation Add = 1, 2, 3, 4 : "))
 
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
