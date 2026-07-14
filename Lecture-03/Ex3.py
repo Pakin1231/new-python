@@ -5,4 +5,4 @@ if num > 40:
 else:
 	pay = payrate * num
 
-print("Pay:", pay)
+print("The gross pay:", pay)
