@@ -1,13 +1,13 @@
-def format_strings(*args):
+def format_strings(*args, sep=''):
     """
-    This function takes multiple string arguments, concatenates them,
-    and returns the result in uppercase.
+    This function takes multiple string arguments, concatenates them using an
+    optional separator, and returns the result in uppercase.
     
     :param args: Variable length string arguments
+    :param sep: Optional separator inserted between provided strings
     :return: Concatenated uppercase string
     """
-    # Concatenate all strings and convert to uppercase
-    return ''.join(args).upper()    
+    return sep.join(args).upper()
 
 #Example usage
 result = format_strings("Hello", "World", "this", "is", "a", "test")
