@@ -1,4 +1,3 @@
-from math_operations import add, subtract
+import math_operations as mo
 
-result_add = add(10,5)
-result_subtract = subtract(10,5)
+result_add = mo.add(10, 5)
