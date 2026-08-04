@@ -9,12 +9,12 @@ def format_strings(*args, sep=''):
     """
     return sep.join(args).upper()
 
-result1 = format_strings("Hello", "World", "this", "is", "a", "test")
-print(result1)
+result = format_strings("Hello", "World", "this", "is", "a", "test")
+print(result)
 
-result2 = format_strings("Python", "is", "fun")
-print(result2)
+result = format_strings("Python", "is", "fun")
+print(result)
 
 #(ส่ง sep='-' เข้าไป)
-result3 = format_strings("Hello", "World", sep="-")
-print(result3)
+result = format_strings("Hello", "World", sep="-")
+print(result)
