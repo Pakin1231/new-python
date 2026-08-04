@@ -5,4 +5,4 @@ def greet(name="World"):
 greet() #Output: Hello, World!
 
 # Calling the function with an argument
-greet("Pakin") #Out put: Hello, Pakin!
+greet("Pakin") #Output: Hello, Pakin!
