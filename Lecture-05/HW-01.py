@@ -9,12 +9,12 @@ def format_strings(*args, sep=''):
     """
     return sep.join(args).upper()
 
-#Example usage
-result = format_strings("Hello", "World", "this", "is", "a", "test")
-print(result)  # Output: "HELLOWORLDTHISISATEST"
+result1 = format_strings("Hello", "World", "this", "is", "a", "test")
+print(result1)
 
-result = format_strings("Python", "is", "fun")
-print(result)  # Output: "PYTHONISFUN"
+result2 = format_strings("Python", "is", "fun")
+print(result2)
 
-result = format_strings("Concatenate", "these", "strings","please")
-print(result)  # Output: "CONCATENATETHESESTRINGSPLEASE"
+#(ส่ง sep='-' เข้าไป)
+result3 = format_strings("Hello", "World", sep="-")
+print(result3)
