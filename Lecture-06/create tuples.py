@@ -1,0 +1,3 @@
+# Creating a tuple
+my_tuple = (1, 2, 3, "apple", "banana")
+print(my_tuple)
