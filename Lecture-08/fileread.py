@@ -1,5 +1,4 @@
-#This program reads and displays the contents
-# of the philosophers.txt file.
+#This program reads and displays the contents of the philosophers.txt file.
 def main():
     #Open the philosophers.txt file for reading.
     infile = open('philosophers.txt', 'r')
@@ -10,7 +9,8 @@ def main():
     #Close the file.
     infile.close()
 
-    #Display the contents that were read from the file.
-    print(line1, end='')
-    print(line2, end='')
-    print(line3, end='')
+    #Print the data that was read into memory.
+    print(file_contents)
+
+#Call the main function.
+main()

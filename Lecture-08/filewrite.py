@@ -1,5 +1,4 @@
-#This program writes three lines of data
-#to a file.
+#This program writes three lines of data to a file.
 def main():
     #Open a file named philosophers.txt.
     outfile = open('philosophers.txt', 'w')
