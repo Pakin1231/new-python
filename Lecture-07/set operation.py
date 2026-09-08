@@ -11,4 +11,5 @@ print(set1.intersection(set2))  # Output: {3}
 print(set1.difference(set2))  # Output: {1, 2}
 
 # Symmetric Difference
-print(set1.symmetric_difference(set2))  # Output: {1, 2,
+print(set1.symmetric_difference(set2))  # Output: {1, 2, 4, 5}
+
