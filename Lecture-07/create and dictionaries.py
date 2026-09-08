@@ -1,1 +1,5 @@
-student = {"name": "Alice", "age": 25, "grade": "A"}
+student = {}
+
+student['name'] = "Alice"
+student['age'] = 25
+student['grade'] = "A"
