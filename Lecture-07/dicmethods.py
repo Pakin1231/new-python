@@ -12,3 +12,10 @@ for key, value in phonebook.items():
 print(phonebook.keys())  # Output: dict_keys(['Anirah', 'Mickey', 'Donald', 'Pluto'])
 print(phonebook.values())  # Output: dict_values(['777-1111', '777-2222', '777-3333', '777-4444'])
 print(phonebook.pop('Mickey', 'Element not found'))  # Output: 777-2222
+print(phonebook.pop('Mick', 'Element not found'))  # Output: Element not found
+print(phonebook)  # Output: {'Anirah': '777-1111', 'Donald': '777-3333', 'Pluto': '777-4444'}
+print(phonebook.popitem())  # Output: ('Pluto', '777-4444')
+print(phonebook)  # Output: {'Anirah': '777-1111', 'Donald': '777-3333'}
+phonebook.clear()
+print('After clear')
+print(phonebook)  # Output: {}
