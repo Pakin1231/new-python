@@ -7,4 +7,4 @@ for key in student:
 # name: Alice
 # age: 25
 # grade: A
-#major: Computer Science
+# major: Computer Science
